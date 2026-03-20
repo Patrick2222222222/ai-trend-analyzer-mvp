@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trend Analyzer MVP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .trend-card { transition: transform 0.2s; }
+        .trend-card:hover { transform: translateY(-2px); }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800">AI Trend Analyzer</h1>
+            <p class="text-gray-600 mt-2">Discover trending AI projects from GitHub, Reddit, Product Hunt, and Hacker News</p>
+        </header>
+        
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Trend cards will be populated by JavaScript -->
+            <div id="trends-container" class="col-span-full">
+                <div class="text-center py-12 text-gray-500">
+                    Loading trends...
+                </div>
+            </div>
+        </div>
+        
+        <footer class="text-center mt-10 text-gray-500 text-sm border-t pt-6">
+            Generated from analysis of top repositories: e2b-dev/awesome-ai-agents, zjunlp/LLMAgentPapers, luo-junyu/Awesome-Agent-Papers
+        </footer>
+    </div>
+
+    <script>
+        // Simulated trend data - in a real app, this would come from an API
+        const trends = [
+            {
+                source: 'GitHub',
+                title: 'e2b-dev/awesome-ai-agents',
+                description: 'Trending AI agent repository with many stars',
+                url: 'https://github.com/e2b-dev/awesome-ai-agents',
+                stars: 0
+            },
+            {
+                source: 'Reddit',
+                title: 'AI-powered interview assistant',
+                description: 'Real-time transcription and suggestions for job interviews',
+                url: 'https://www.reddit.com/r/LocalLMA/',
+                stars: 0
+            },
+            {
+                source: 'Product Hunt',
+                title: 'Voice-to-text dictation app',
+                description: 'Zero-edit voice notes for macOS',
+                url: 'https://www.producthunt.com/posts/wispr-flow',
+                stars: 0
+            },
+            {
+                source: 'Hacker News',
+                title: 'Open-source LLM fine-tuning toolkit',
+                description: 'Simple UI for adapting models to specific tasks',
+                url: 'https://news.ycombinator.com/item?id=example',
+                stars: 0
+            }
+        ];
+        
+        const container = document.getElementById('trends-container');
+        if (trends.length === 0) {
+            container.innerHTML = '<p class="text-center py-8 text-gray-500">No trends data available</p>';
+        } else {
+            container.innerHTML = trends.map(trend => \`
+                <div class="border rounded-lg shadow-sm bg-white trend-card hover:shadow-md">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="font-semibold text-gray-800">{{ trend.source }}</h3>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">★ {{ trend.stars }}</span>
+                        </div>
+                        <h2 class="text-xl font-medium text-gray-900 mb-2 truncate">
+                            <a href="{{ trend.url }}" target="_blank" class="hover:underline">{{ trend.title }}</a>
+                        </h2>
+                        <p class="text-gray-600 mb-4 line-clamp-3">{{ trend.description }}</p>
+                        <a href="{{ trend.url }}" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            \`).join('');
+        }
+    </script>
+</body>
+</html>
