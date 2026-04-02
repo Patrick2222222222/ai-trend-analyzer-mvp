@@ -1,32 +1,14 @@
 {
-  "updated_at": "2026-03-26T08:48:57.949845Z",
+  "updated_at": "2026-04-02T07:07:46.217511+00:00",
   "top_repos": [
     {
-      "repo": "tensorflow/tensorflow",
-      "stars": 194348,
-      "forks": 75247,
-      "language": "C++",
-      "open_issues": 4017,
-      "open_prs": 3057,
-      "score": 276669
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 182843,
-      "forks": 46216,
-      "language": "Python",
-      "open_issues": 372,
-      "open_prs": 139,
-      "score": 229570
-    },
-    {
-      "repo": "huggingface/transformers",
-      "stars": 158431,
-      "forks": 32612,
-      "language": "Python",
-      "open_issues": 2291,
-      "open_prs": 1224,
-      "score": 194558
+      "repo": "HackerNews/API",
+      "stars": 13060,
+      "forks": 729,
+      "language": "Unknown",
+      "open_issues": 6,
+      "open_prs": 0,
+      "score": 13795
     }
   ]
 }
