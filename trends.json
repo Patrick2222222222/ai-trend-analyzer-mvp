@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-02T07:07:46.217511+00:00",
+  "updated_at": "2026-04-03T07:07:59.583687+00:00",
   "top_repos": [
     {
-      "repo": "HackerNews/API",
-      "stars": 13060,
-      "forks": 729,
+      "repo": "alvinunreal/awesome-opensource-ai",
+      "stars": 2271,
+      "forks": 187,
       "language": "Unknown",
-      "open_issues": 6,
-      "open_prs": 0,
-      "score": 13795
+      "open_issues": 12,
+      "open_prs": 10,
+      "score": 2480
     }
   ]
 }
