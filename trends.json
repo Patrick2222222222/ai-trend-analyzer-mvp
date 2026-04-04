@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-04-03T07:07:59.583687+00:00",
+  "updated_at": "2026-04-04T07:20:18.576934+00:00",
   "top_repos": [
     {
-      "repo": "alvinunreal/awesome-opensource-ai",
-      "stars": 2271,
-      "forks": 187,
-      "language": "Unknown",
-      "open_issues": 12,
-      "open_prs": 10,
-      "score": 2480
+      "repo": "huggingface/transformers",
+      "stars": 158774,
+      "forks": 32729,
+      "language": "Python",
+      "open_issues": 2351,
+      "open_prs": 100,
+      "score": 193954
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "stars": 132286,
+      "forks": 21821,
+      "language": "Python",
+      "open_issues": 518,
+      "open_prs": 100,
+      "score": 154725
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "stars": 75201,
+      "forks": 15147,
+      "language": "Python",
+      "open_issues": 4081,
+      "open_prs": 100,
+      "score": 94529
     }
   ]
 }
