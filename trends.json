@@ -1,32 +1,4 @@
 {
-  "updated_at": "2026-04-07T07:27:40.630762+00:00",
-  "top_repos": [
-    {
-      "repo": "tensorflow/tensorflow",
-      "stars": 194535,
-      "forks": 75256,
-      "language": "C++",
-      "open_issues": 4189,
-      "open_prs": 0,
-      "score": 273980
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "stars": 183200,
-      "forks": 46208,
-      "language": "Python",
-      "open_issues": 383,
-      "open_prs": 0,
-      "score": 229791
-    },
-    {
-      "repo": "AUTOMATIC1111/stable-diffusion-webui",
-      "stars": 162164,
-      "forks": 30233,
-      "language": "Python",
-      "open_issues": 2475,
-      "open_prs": 0,
-      "score": 194872
-    }
-  ]
+  "updated_at": "2026-04-12T07:42:46.197695+00:00",
+  "top_repos": []
 }
