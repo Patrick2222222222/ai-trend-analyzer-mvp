@@ -1,4 +1,32 @@
 {
-  "updated_at": "2026-04-12T08:13:53.133926+00:00",
-  "top_repos": []
+  "updated_at": "2026-04-12T08:16:52.838183+00:00",
+  "top_repos": [
+    {
+      "repo": "steven2358/awesome-generative-ai",
+      "stars": 11809,
+      "forks": 1487,
+      "language": "",
+      "open_issues": 150,
+      "open_prs": 1,
+      "score": 13447
+    },
+    {
+      "repo": "alvinreal/awesome-opensource-ai",
+      "stars": 2476,
+      "forks": 217,
+      "language": "Python",
+      "open_issues": 7,
+      "open_prs": 1,
+      "score": 2701
+    },
+    {
+      "repo": "GetStream/awesome-ai-news",
+      "stars": 64,
+      "forks": 3,
+      "language": "",
+      "open_issues": 3,
+      "open_prs": 0,
+      "score": 70
+    }
+  ]
 }
