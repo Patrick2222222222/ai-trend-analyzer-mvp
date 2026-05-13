@@ -1,4 +1,32 @@
 {
-  "updated_at": "2026-05-13T07:43:43.861125Z",
-  "top_repos": []
+  "updated_at": "2026-05-13T07:46:04.212451Z",
+  "top_repos": [
+    {
+      "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "stars": 33571,
+      "forks": 7133,
+      "language": "",
+      "open_issues": 64,
+      "open_prs": 0,
+      "score": 40768
+    },
+    {
+      "repo": "KalyanM45/AI-Project-Gallery",
+      "stars": 5127,
+      "forks": 1054,
+      "language": "",
+      "open_issues": 0,
+      "open_prs": 0,
+      "score": 6181
+    },
+    {
+      "repo": "felladrin/awesome-ai-web-search",
+      "stars": 1301,
+      "forks": 106,
+      "language": "HTML",
+      "open_issues": 5,
+      "open_prs": 0,
+      "score": 1412
+    }
+  ]
 }
