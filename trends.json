@@ -1,4 +1,32 @@
 {
-  "updated_at": "2026-05-19T11:33:46.726662+00:00",
-  "top_repos": []
+  "updated_at": "2026-05-19T11:44:37.693820+00:00",
+  "top_repos": [
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 111051,
+      "forks": 16471,
+      "language": "Python",
+      "open_issues": 1,
+      "open_prs": 8,
+      "score": 127531
+    },
+    {
+      "repo": "ashishpatel26/500-AI-Agents-Projects",
+      "stars": 30845,
+      "forks": 5380,
+      "language": "",
+      "open_issues": 22,
+      "open_prs": 47,
+      "score": 36294
+    },
+    {
+      "repo": "e2b-dev/awesome-ai-agents",
+      "stars": 27913,
+      "forks": 2900,
+      "language": "",
+      "open_issues": 112,
+      "open_prs": 545,
+      "score": 31470
+    }
+  ]
 }
