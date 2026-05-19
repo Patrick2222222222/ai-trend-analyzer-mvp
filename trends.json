@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T11:44:37.693820+00:00",
+  "updated_at": "2026-05-19T11:48:05.505400+00:00",
   "top_repos": [
     {
       "repo": "Shubhamsaboo/awesome-llm-apps",
@@ -11,22 +11,22 @@
       "score": 127531
     },
     {
+      "repo": "FoundationAgents/OpenManus",
+      "stars": 56304,
+      "forks": 9818,
+      "language": "Python",
+      "open_issues": 353,
+      "open_prs": 196,
+      "score": 66671
+    },
+    {
       "repo": "ashishpatel26/500-AI-Agents-Projects",
       "stars": 30845,
       "forks": 5380,
       "language": "",
-      "open_issues": 22,
-      "open_prs": 47,
-      "score": 36294
-    },
-    {
-      "repo": "e2b-dev/awesome-ai-agents",
-      "stars": 27913,
-      "forks": 2900,
-      "language": "",
-      "open_issues": 112,
-      "open_prs": 545,
-      "score": 31470
+      "open_issues": 0,
+      "open_prs": 0,
+      "score": 36225
     }
   ]
 }
