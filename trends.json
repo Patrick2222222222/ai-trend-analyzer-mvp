@@ -1,32 +1,4 @@
 {
-  "updated_at": "2026-05-19T11:48:05.505400+00:00",
-  "top_repos": [
-    {
-      "repo": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 111051,
-      "forks": 16471,
-      "language": "Python",
-      "open_issues": 1,
-      "open_prs": 8,
-      "score": 127531
-    },
-    {
-      "repo": "FoundationAgents/OpenManus",
-      "stars": 56304,
-      "forks": 9818,
-      "language": "Python",
-      "open_issues": 353,
-      "open_prs": 196,
-      "score": 66671
-    },
-    {
-      "repo": "ashishpatel26/500-AI-Agents-Projects",
-      "stars": 30845,
-      "forks": 5380,
-      "language": "",
-      "open_issues": 0,
-      "open_prs": 0,
-      "score": 36225
-    }
-  ]
+  "updated_at": "2026-05-20T07:23:11.231640Z",
+  "top_repos": []
 }
