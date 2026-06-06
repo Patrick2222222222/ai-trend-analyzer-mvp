@@ -1,14 +1,4 @@
 {
-  "updated_at": "2026-05-23T07:46:45.051411+00:00",
-  "top_repos": [
-    {
-      "repo": "owner/repo",
-      "stars": 10,
-      "forks": 5,
-      "language": "Python",
-      "open_issues": 2,
-      "open_prs": 1,
-      "score": 18
-    }
-  ]
+  "updated_at": "2026-06-06T07:24:15.566697+00:00",
+  "top_repos": []
 }
