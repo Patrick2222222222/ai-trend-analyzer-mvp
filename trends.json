@@ -1,32 +1,4 @@
 {
-  "updated_at": "2026-06-06T07:50:07.702321+00:00",
-  "top_repos": [
-    {
-      "repo": "HackerNews/API",
-      "stars": 13082,
-      "forks": 739,
-      "language": "",
-      "open_issues": 5,
-      "open_prs": 3,
-      "score": 13829
-    },
-    {
-      "repo": "microsoft/pg_durable",
-      "stars": 850,
-      "forks": 13,
-      "language": "Rust",
-      "open_issues": 48,
-      "open_prs": 21,
-      "score": 932
-    },
-    {
-      "repo": "nordstjernen-web/nordstjernen",
-      "stars": 70,
-      "forks": 4,
-      "language": "C",
-      "open_issues": 0,
-      "open_prs": 0,
-      "score": 74
-    }
-  ]
+  "updated_at": "2026-06-07T07:31:57.614781Z",
+  "top_repos": []
 }
